@@ -50,7 +50,7 @@ class App extends React.Component {
           <input
             type="text"
             className="input-text"
-            placeholder="Add your new bank"
+            placeholder="Input your new bank"
             required
             value={this.state.newBank}
             onChange={e => this.updateInput(e.target.value)}
